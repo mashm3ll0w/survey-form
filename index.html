@@ -10,5 +10,51 @@
 		<link rel="stylesheet" href="js/index.js" type="text/javascript" />
 		<title>Survey Form</title>
 	</head>
-	<body></body>
+	<body>
+		<section class="heading">
+			<div class="jumbotron">
+				<h1>Quick Study Survey</h1>
+				<p>We are conducting a simple survey to personality types. Kindly fill out the form below to help us out. Thank you.</p>
+			</div>
+		</section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<form action="">
+						<div class="form-group">
+							<label for="name">What is your name?</label>
+							<input type="text" id="name" class="form-control" autocomplete="off" />
+						</div>
+						<div class="form-group">
+							<label for="food">Your favourite food?</label>
+							<input type="text" id="food" class="form-control" autocomplete="off" />
+						</div>
+						<div class="form-group">
+							<label for="music">Your favourite music?</label>
+							<input type="text" id="music" class="form-control" autocomplete="off" />
+						</div>
+					</form>
+				</div>
+				<div class="col-md-4">
+					<p>Select your gender</p>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="gender " id="female" value="female" />
+						<label class="form-check-label" for="female">Female</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="gender" id="male" value="male" />
+						<label class="form-check-label" for="male">Male</label>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<p>Select your preferred Operating System</p>
+					<select class="form-control" id="os">
+						<option value="1">Linux</option>
+						<option value="2">Windows</option>
+						<option value="3">Mac OS</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
