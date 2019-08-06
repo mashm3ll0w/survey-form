@@ -1,0 +1,23 @@
+.heading {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: khaki !important;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.button {
+  text-align: center;
+  margin: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.25rem;
+}
