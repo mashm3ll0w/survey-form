@@ -8,7 +8,7 @@ $(document).ready(function() {
 		var gender = $("input[name='gender']:checked").val();
 		var opSystem = $("#operatingSystem").val();
 
-		alert("Thank you, " + name + ". Next time, you will find " + food + " here for you and " + music + " playing in the background. You are special because not many " + gender + "s can survive a minute using " + opSystem + " OS!!");
+		//alert("Thank you, " + name + ". Next time, you will find " + food + " here for you and " + music + " playing in the background. You are special because not many " + gender + "s can survive a minute using " + opSystem + " OS!!");
 
 		$("div.catch-form").text("Thank you, " + name + ". Next time, you will find " + food + " here for you and " + music + " playing in the background. You are special because not many " + gender + "s can survive a minute using " + opSystem + " OS!!");
 	});
